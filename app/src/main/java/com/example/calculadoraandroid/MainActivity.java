@@ -20,11 +20,35 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.lblResultado);
     }
 
-    public void calcular(View v){
-        double n1, n2, sum;
-        n1 = Double.parseDouble(num1.getText().toString());
-        n2 = Double.parseDouble(num2.getText().toString());
-        sum = n1 + n2;
-        result.setText(String.valueOf(sum));
+    public void calculate(View v){
+        if(validate()){
+            double n1, n2, sum;
+            n1 = Double.parseDouble(num1.getText().toString());
+            n2 = Double.parseDouble(num2.getText().toString());
+            sum = n1 + n2;
+            result.setText(String.valueOf(sum));
+        }
+    }
+
+    public void clear(View v){
+        num1.setText("");
+        num2.setText("");
+        result.setText("");
+        num1.requestFocus();
+    }
+
+    public boolean validate(){
+        if(num1.getText().toString().isEmpty()){
+            num1.setError(getString(R.string.input_error_one));
+            num1.requestFocus();
+            return false;
+        }
+        if(num2.getText().toString().isEmpty()){
+            num2.setError(getString(R.string.input_error_two));
+            num2.requestFocus();
+            return false;
+        }
+
+        return true;
     }
 }

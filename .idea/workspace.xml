@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c5f50cf-87d7-4194-b293-5cc6fc577e96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/calculadoraandroid/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/calculadoraandroid/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -120,11 +126,20 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/CalculadoraAndroid" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2724" y="305" key="AndroidCreateXmlResourceDialog" timestamp="1605364826119">
+    <state x="2330" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605369356597">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2724" y="305" key="AndroidCreateXmlResourceDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605364826119" />
+    <state x="2330" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605369356597" />
+    <state x="2724" y="305" key="AndroidCreateXmlResourceDialog" timestamp="1605370197889">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2724" y="305" key="AndroidCreateXmlResourceDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605370197889" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1605367730499">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -141,5 +156,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605367730499" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1605368169915">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="164" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1605368169915" />
   </component>
 </project>
